@@ -1,0 +1,122 @@
+/* The Modal (background) */
+.feedback_modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.feedback_modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.feedback_close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.feedback_close:hover,
+.feedback_close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.feedback_modal-header {
+    padding: 2px 16px;
+    background-color: #e1e1e1;
+    color: white;
+}
+
+.feedback_modal-body {
+    padding: 11px 39px;
+    font-size: 15px;
+}
+
+.feedback_modal-footer {
+    padding: 6px 16px;
+    background-color: #e1e1e1;
+    color: white;
+    text-align: right;
+}
+.feedback_heading{
+    font-size: 15px;
+}
+button.smg_button{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    font-family: inherit;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+textarea.smg_description {
+    width: 90%;
+    min-height: 80px;
+    display:none;
+}
+a#smg_feed_cancel {
+    padding-right: 11px;
+}
+#feedback_error{
+    display: none;
+    color:#ff0000;
+}
+.feedback_error{
+    border: 1px solid #ff0000;
+}
+
+#feedback_email{
+    width:90%;
+}
+#feed_email{
+    display:none;
+}

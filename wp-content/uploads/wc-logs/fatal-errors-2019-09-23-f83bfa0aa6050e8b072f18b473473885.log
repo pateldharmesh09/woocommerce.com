@@ -1,0 +1,52 @@
+2019-09-23T11:14:39+00:00 CRITICAL Uncaught Error: Call to undefined function is_plugin_active() in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/content-single-product.php:40
+Stack trace:
+#0 /var/www/html/html/wordpress3/wp-includes/template.php(724): require()
+#1 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-core-functions.php(195): load_template('/var/www/html/h...', false)
+#2 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/single-product.php(36): wc_get_template_part('content', 'single-product')
+#3 /var/www/html/html/wordpress3/wp-includes/template-loader.php(78): include('/var/www/html/h...')
+#4 /var/www/html/html/wordpress3/wp-blog-header.php(19): require_once('/var/www/html/h...')
+#5 /var/www/html/html/wordpress3/index.php(17): require('/var/www/html/h...')
+#6 {main}
+  thrown in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/content-single-product.php on line 40
+
+2019-09-23T11:14:55+00:00 CRITICAL Uncaught Error: Call to undefined function is_plugin_active() in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/content-single-product.php:40
+Stack trace:
+#0 /var/www/html/html/wordpress3/wp-includes/template.php(724): require()
+#1 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-core-functions.php(195): load_template('/var/www/html/h...', false)
+#2 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/single-product.php(36): wc_get_template_part('content', 'single-product')
+#3 /var/www/html/html/wordpress3/wp-includes/template-loader.php(78): include('/var/www/html/h...')
+#4 /var/www/html/html/wordpress3/wp-blog-header.php(19): require_once('/var/www/html/h...')
+#5 /var/www/html/html/wordpress3/index.php(17): require('/var/www/html/h...')
+#6 {main}
+  thrown in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/content-single-product.php on line 40
+
+2019-09-23T11:19:41+00:00 CRITICAL Uncaught Error: Call to undefined function is_plugin_active() in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/content-single-product.php:40
+Stack trace:
+#0 /var/www/html/html/wordpress3/wp-includes/template.php(724): require()
+#1 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-core-functions.php(195): load_template('/var/www/html/h...', false)
+#2 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/single-product.php(36): wc_get_template_part('content', 'single-product')
+#3 /var/www/html/html/wordpress3/wp-includes/template-loader.php(78): include('/var/www/html/h...')
+#4 /var/www/html/html/wordpress3/wp-blog-header.php(19): require_once('/var/www/html/h...')
+#5 /var/www/html/html/wordpress3/index.php(17): require('/var/www/html/h...')
+#6 {main}
+  thrown in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/content-single-product.php on line 40
+
+2019-09-23T11:20:55+00:00 CRITICAL Uncaught Error: Call to undefined function is_plugin_active() in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/content-single-product.php:43
+Stack trace:
+#0 /var/www/html/html/wordpress3/wp-includes/template.php(724): require()
+#1 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-core-functions.php(195): load_template('/var/www/html/h...', false)
+#2 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/single-product.php(36): wc_get_template_part('content', 'single-product')
+#3 /var/www/html/html/wordpress3/wp-includes/template-loader.php(78): include('/var/www/html/h...')
+#4 /var/www/html/html/wordpress3/wp-blog-header.php(19): require_once('/var/www/html/h...')
+#5 /var/www/html/html/wordpress3/index.php(17): require('/var/www/html/h...')
+#6 {main}
+  thrown in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/content-single-product.php on line 43
+
+2019-09-23T13:22:28+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/cart/cart.php on line 20
+
+2019-09-23T13:52:44+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/cart/cart.php on line 28
+
+2019-09-23T13:53:10+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/cart/cart.php on line 28
+
+2019-09-23T13:53:38+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/cart/cart.php on line 28
+

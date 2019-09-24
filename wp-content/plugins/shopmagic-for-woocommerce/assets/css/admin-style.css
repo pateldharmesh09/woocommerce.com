@@ -1,0 +1,25 @@
+.shopmagic-action-footer,.shopmagic-action-header{text-align:right}.shopmagic-action-footer .dashicons,.shopmagic-action-header .dashicons{line-height:30px}#action-area-stub{display:none}.wide-form-control{width:100%}.wide-form-control.half{width:50%}.form-group{margin-bottom:10px}.form-group:last-child{margin-bottom:0}.action_title{display:inline;margin-left:20px;font-weight:700}.wrong_action{border:1px solid red}.wrong_action_alert{line-height:20px;padding:5px}.wrong_action_alert .dashicons{color:red;margin-right:5px}.action-form-table .spinner{margin-top:8px}#modal-record-log-detail{display:none}#modal-record-log-detail .spinner{display:none;float:none;width:100%;background-position:center center}#modal-record-log-detail #record-log-detail-content .record-field{margin:5px 0}#modal-record-log-detail #record-log-detail-content .record-description .value{border:1px solid #d3d3d3;padding:5px;margin:5px 0 0}#modal-record-log-detail .spinner.is-active{display:block;position:absolute;top:0;left:0;height:100%;background-color:#f3f3f3;margin:0}.error-icon{float:right;margin-top:4px;margin-right:10px;display:none;visibility:hidden;color:red}.error-icon-visible{display:inline;visibility:visible}.error-icon-tooltip{visibility:hidden;width:120px;background-color:#000;color:#fff;text-align:center;padding:5px 0;border-radius:6px;top:-30px;position:absolute;z-index:1}.error-icon:hover .error-icon-tooltip{visibility:visible}.action-form-table .error-icon{margin-top:8px}.email_templates .error-icon,.email_templates .spinner{float:none}.email_templates .error-icon-tooltip{top:inherit;left:150px}.et_wrapper{margin:10px 0}.shopmagic_banner_logo{background-image:url(../images/shopmagic-logo-box.png);background-repeat:no-repeat;background-size:100px 100px;display:block;float:left;height:100px;width:100px;margin:10px}#shopmagic_survey_rating{text-align:center}#shopmagic_survey_rating span{width:20px;height:22px;cursor:pointer;display:inline-block;background-image:url(../images/greystar.png);padding:0 2px;background-size:22px;background-repeat:no-repeat}
+.wp-admin #woocommerce-order-items tbody tr .wc-order-edit-line-item-actions {
+    visibility: visible;
+}
+.wp-admin #woocommerce-order-items .wc-order-edit-line-item-actions a {
+    color: #7b0000;
+}    
+.wp-admin #woocommerce-order-items .wc-order-edit-line-item-actions a:first-child {
+	padding-top: 5px;
+}
+
+#event-filter-area {
+    margin: 2em 0 0 1em;
+}
+#event-filter-area .filter-heading {
+    border-bottom: 1px solid #d4d4d4;
+    width: 30%;
+    padding-bottom: .5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#event-filter-area .filter-content {
+    margin-top: 1em;
+}    
