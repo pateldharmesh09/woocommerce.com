@@ -25,7 +25,8 @@ Plugin URI: http://wordpress.com/
   add_action('init','custom_woocommerce_assets');
 
 
-   
+    include_once(MY_PLUGIN_PATH.'views/add-settings-section.php');
+
 
 /*Add custom  fields to WooCommerce Product page */
 
@@ -101,8 +102,4 @@ add_action( 'woocommerce_add_order_item_meta', 'add_order_item_meta' , 10, 2);
 ?>
 
 
- <?php 
-   // include file og adding section on setting panel in WC
-    include_once(MY_PLUGIN_PATH.'views/Add-settings-section.php'); 
-  
- ?>
+

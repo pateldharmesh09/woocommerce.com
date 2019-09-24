@@ -1,9 +1,10 @@
 
-<!-- Adding a Section to a Settings Tab on woocommerce -->
-<!-- Adding a Section to a Settings Tab on woocommerce -->
+
 
 <?php 
 /**
+ Adding a Section to a Settings Tab on woocommerce 
+ Adding a Section to a Settings Tab on woocommerce 
  * Create the section beneath the products tab
  **/
 add_filter( 'woocommerce_get_sections_products', 'wc_customize_add_section',10,1);

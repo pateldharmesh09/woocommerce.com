@@ -34,28 +34,6 @@ if ( post_password_required() ) {
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
  
 
-        <!-- This Shortcode Run Only Custom Woocommerce Plugin -->
-	     
-	     <?php
-	       /*Add text box in product detail page. in which the user can add a message for the gift.
-	           using shortcode */
-	                 //echo do_shortcode('[Request-gift]'); 
-	          
-
-	           //Detect plugin. For use on Front End only.
-	         /*  include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-	           // check for plugin using plugin name
-	           if(is_plugin_active('custom-woocommerce/custom-woocommerce.php')){
-	           	    
-	                  //plugin is activated
-	           	    echo do_shortcode('[Request-gift]');
-	           }
-	           	else{
-                     //plugin is deactivated.
-	           	} */
-	        ?>
-
-
 	<?php
 	/**
 	 * Hook: woocommerce_before_single_product_summary.
