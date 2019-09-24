@@ -24,7 +24,8 @@ Plugin URI: http://wordpress.com/
   }
   add_action('init','custom_woocommerce_assets');
 
-
+  //Adding a Section to a Settings Tab on woocommerce
+  //include file 
     include_once(MY_PLUGIN_PATH.'views/add-settings-section.php');
 
 
