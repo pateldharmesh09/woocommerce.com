@@ -1,0 +1,33 @@
+2019-09-25T12:11:26+00:00 CRITICAL Uncaught Error: Call to undefined function set() in /var/www/html/html/wordpress3/wp-content/plugins/custom-woocommerce/custom-woocommerce.php:125
+Stack trace:
+#0 /var/www/html/html/wordpress3/wp-includes/class-wp-hook.php(286): woo_remove_product_tabs(Array)
+#1 /var/www/html/html/wordpress3/wp-includes/plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(28): apply_filters('woocommerce_pro...', Array)
+#3 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/h...')
+#4 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1496): wc_get_template('single-product/...')
+#5 /var/www/html/html/wordpress3/wp-includes/class-wp-hook.php(286): woocommerce_output_product_data_tabs('')
+#6 /var/www/html/html/wordpress3/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /var/www/html/html/word in /var/www/html/html/wordpress3/wp-content/plugins/custom-woocommerce/custom-woocommerce.php on line 125
+
+2019-09-25T12:11:34+00:00 CRITICAL Uncaught Error: Call to undefined function set() in /var/www/html/html/wordpress3/wp-content/plugins/custom-woocommerce/custom-woocommerce.php:125
+Stack trace:
+#0 /var/www/html/html/wordpress3/wp-includes/class-wp-hook.php(286): woo_remove_product_tabs(Array)
+#1 /var/www/html/html/wordpress3/wp-includes/plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(28): apply_filters('woocommerce_pro...', Array)
+#3 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/h...')
+#4 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1496): wc_get_template('single-product/...')
+#5 /var/www/html/html/wordpress3/wp-includes/class-wp-hook.php(286): woocommerce_output_product_data_tabs('')
+#6 /var/www/html/html/wordpress3/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /var/www/html/html/word in /var/www/html/html/wordpress3/wp-content/plugins/custom-woocommerce/custom-woocommerce.php on line 125
+
+2019-09-25T12:11:37+00:00 CRITICAL Uncaught Error: Call to undefined function set() in /var/www/html/html/wordpress3/wp-content/plugins/custom-woocommerce/custom-woocommerce.php:125
+Stack trace:
+#0 /var/www/html/html/wordpress3/wp-includes/class-wp-hook.php(286): woo_remove_product_tabs(Array)
+#1 /var/www/html/html/wordpress3/wp-includes/plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(28): apply_filters('woocommerce_pro...', Array)
+#3 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/h...')
+#4 /var/www/html/html/wordpress3/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1496): wc_get_template('single-product/...')
+#5 /var/www/html/html/wordpress3/wp-includes/class-wp-hook.php(286): woocommerce_output_product_data_tabs('')
+#6 /var/www/html/html/wordpress3/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /var/www/html/html/word in /var/www/html/html/wordpress3/wp-content/plugins/custom-woocommerce/custom-woocommerce.php on line 125
+

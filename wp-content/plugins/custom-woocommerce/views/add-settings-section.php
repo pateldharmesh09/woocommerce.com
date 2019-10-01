@@ -87,5 +87,4 @@ function num_of_product_per_page( $col) {
   
     return $col; // 9 product per page
 }
-
 ?>

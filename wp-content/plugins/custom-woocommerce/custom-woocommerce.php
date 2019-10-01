@@ -1,5 +1,4 @@
 <?php
-
 /*
 Plugin Name: custom woocommerce
 Description: this plugin can be used for woocommernce for Add text box in product detail page. in which the user can add a message for the gift. Message appears in cart as well on the checkout page. After successfully product purchase that message is sent in email and back end order screen.
@@ -10,7 +9,7 @@ Author URI: http://wordpress.org/
 Plugin URI: http://wordpress.com/
 */
    define('MY_PLUGIN_PATH',plugin_dir_path( __FILE__ ));  // return current plugin path
-    define('PLUGIN_URL',plugins_url());                   // return plugin URL
+  define('PLUGIN_URL',plugins_url());                   // return plugin URL
 
   // include stylesheet && script file
   function custom_woocommerce_assets()
@@ -24,9 +23,35 @@ Plugin URI: http://wordpress.com/
   }
   add_action('init','custom_woocommerce_assets');
 
-  //Adding a Section to a Settings Tab on woocommerce
-  //include file 
+  
+  //Adding custom Section to a PRODUCT  Tab on woocommerce setting Section
+    //include file 
     include_once(MY_PLUGIN_PATH.'views/add-settings-section.php');
+
+
+  // Apply a coupon for minimum cart total using custom plugin.
+    //include file
+    include_once(MY_PLUGIN_PATH.'views/coupon-minimum-cart-total.php');
+
+    /* 
+     *Remove default Checkout Fields  
+     *How to Remove Fields from Woocommerce Edit Address Form billing and Shipping
+   */
+    //include file
+    include_once(MY_PLUGIN_PATH.'views/Remove-checkout-fields.php'); 
+
+   /**
+    * Add a message above the login / register form on my-account page
+   */ 
+   //include file
+    include_once(MY_PLUGIN_PATH.'views/message-my-account-page.php'); 
+
+    
+   /**
+     * Custom currency and currency symbol
+   */
+    //include file
+    include_once(MY_PLUGIN_PATH.'views/custom-currency.php'); 
 
 
 /*Add custom  fields to WooCommerce Product page */
@@ -101,6 +126,4 @@ function add_order_item_meta ( $item_id, $values ) {
 }
 add_action( 'woocommerce_add_order_item_meta', 'add_order_item_meta' , 10, 2);
 ?>
-
-
 
